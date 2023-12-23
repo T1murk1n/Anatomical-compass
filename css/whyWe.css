@@ -1,0 +1,48 @@
+.whyWe {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-color: #F7F9FF;
+    position: relative;
+}
+.whyWe__container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.allocation {
+}
+.whyWe__row {
+    margin-top: 60px;
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+}
+.card {
+    padding: 28px;
+    max-width: 320px;
+    border-radius: 24px;
+}
+.card-blue {
+    background-color: #E0E7FF;
+}
+.card-pink {
+    background-color: #F3E8FF;
+}
+.card-yellow {
+    background-color: #FFEDD5;
+}
+.whyWe-heart {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+}
+.whyWe-stars {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+.whyWe-smile {
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+}

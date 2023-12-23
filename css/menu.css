@@ -1,0 +1,124 @@
+.header {
+    background-color: #fff;
+    z-index: 45;
+    position: fixed;
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+}
+.navbar__container {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+}
+.hero__title {
+    font-size: 96px;
+    margin-bottom: 32px;
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -0.01em;
+}
+.navbar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+.logo__box {
+    width: 70px;
+    height: 70px;
+    background: url(../img/Remove-bg.ai_1703096353783.png) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.logo__description {
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: #1E1B4B;
+    text-decoration: none;
+}
+.navbar__menu {
+}
+.navbar__item-row {
+    border: 1px solid var(--fiol);
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+.navbar__item-row:hover {
+    background-color: var(--light-fiol);
+}
+.navbar__link {
+    padding: 4px 12px 4px 12px;
+    font-size: 20px;
+    color: var(--fiol);
+}
+.btn-reset {
+}
+.navbar__button {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--orange);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.navbar__button:hover {
+    background-color: var(--light-orange);
+}
+.navbar__button.active {
+    opacity: 1;
+    visibility:visible;
+}
+.main{
+    padding-top: 150px;
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 100px;
+    transition: all 0.5s ease;
+    transform: translateY(-200%);
+}
+.menu.active {
+    transform: translateY(0%);
+}
+.menu-wrap {
+    background-color: var(--light-fiol);
+    padding: 16px 0;
+}
+.menu-wrap__list-col {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    background: transparent;
+    border: none;
+    border-right: 1px solid var(--light-fiol);
+    border-left: 1px solid var(--light-fiol);
+    height: 100px;
+    width: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    display: none;
+}
+.menu-button__line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--fiol);
+}

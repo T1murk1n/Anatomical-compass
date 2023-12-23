@@ -1,0 +1,75 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ html, body{
+     height: 100%;
+     font-family: Tilda Sans VF;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+ }
+
+ ul, ol{
+     list-style: none;
+ }
+ .btn-reset {
+     padding: 0;
+     border: none;
+     color: inherit;
+     background-color: transparent;
+     cursor: pointer;
+ }
+ ul[class$="__list"] {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 15px;
+ }
+ ul[class$="__list-col"] {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+ }
+ li[class$="__item-row"] {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+ }
+ a[class$="__link"] {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     font-weight: 600;
+     text-decoration: none;
+     list-style-type: none;
+ }
+
+:root {
+    --fiol: #312E81;
+    --light-fiol: #EEF2FF;
+    --orange: #EA580C;
+    --light-orange: #F97316;
+}
+.allocation {
+    color: #BE185D;
+}
+
+.allocation-bold {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.title { 
+    background-color: #2AA5A0;
+    background-image: linear-gradient(92.22deg, #3730A3 0%, #7E22CE 29.69%, #BE185D 65.1%, #C2410C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Tilda Sans VF;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 77px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}

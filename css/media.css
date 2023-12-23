@@ -1,0 +1,152 @@
+@media (max-width: 1199px) {
+    div.navbar__container,  div.whyWe__container, div.themes__container, div.hero__container, div.inside__container, div.team__container, div.feature__container,div.footer__container{
+        max-width: 960px;
+    }
+    div.inside__grid-box {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    div.inside__grid-box .inside__card:last-child {
+        grid-row-start: 5;
+    }
+    div.team__grid-box {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    a.navbar__logo {
+        gap: 5px;
+    }
+    ul[class$="__list"] {
+        gap: 5px !important;
+    }
+    a.navbar__button {
+        font-size: 18px;
+    }
+    .feature-plane  {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    div.navbar__container,  div.whyWe__container, div.themes__container, div.hero__container, div.inside__container, div.team__container, div.feature__container,div.footer__container {
+        max-width: 750px;
+    }
+    a.navbar__logo.logo {
+        display: none;
+    }
+    a.navbar__link {
+        padding: 4px 8px;
+    }
+    a.navbar__button {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+    h1.hero__title {
+        font-size: 66px;
+        margin-bottom: 22px; 
+        line-height: 60px;
+    }
+    p.hero__description {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .whyWe__row {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    div.card {
+        padding: 20px;
+        min-width: 100%;
+    }
+    .whyWe-heart, .whyWe-stars, .whyWe-smile{
+        display: none;
+    }
+    section.inside {
+        padding: 0;
+    }
+
+    .themes-star, .themes-oblako,  .themes-wow, .themes-snow{
+        display: none;
+    }
+}
+
+@media (max-width: 776px) {
+    h2[class$="__title"] {
+        font-size: 44px;
+    }
+    a.navbar__button {
+        opacity: 1;
+        visibility:visible;
+    }
+    div.navbar__container,  div.whyWe__container, div.themes__container, div.hero__container, div.inside__container, div.team__container,div.footer__container {
+        min-width: 100%;
+        padding: 0 30px;
+    }
+    section.feature {
+        padding: 50px 40px;
+    }
+    div.feature__container .abstraction {
+        display: none;
+    }
+    div.feature__container .feature__description h2 {
+        font-size: 40px;
+    }
+    div.feature__description {
+        padding: 30px 40px;
+    }
+    .navbar__menu .navbar__list {
+        display: none;
+    }
+    button.menu-button {
+        display: flex;
+    }
+    h1.hero__title {
+        overflow-wrap: break-word;
+    }
+    .whyWe__row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    div.card {
+        padding: 20px;
+        min-width: 100%;
+    }
+    section.inside {
+        padding: 0;
+    }
+    div.inside__grid-box {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    div.card--big {
+        grid-column: 1;
+        grid-row: span 2;
+    }
+    div.card--long {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    div.team__grid-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr, 11);
+        grid-gap: 20px;
+    }
+    img.feature-lines {
+        position: absolute;
+        top: -48%;
+        left: -28%;
+    }
+    img.attention-img {
+        position: absolute;
+        top: -39%;
+        right: -49%;
+    }
+    .footer__row-col2 {
+        display: none;
+    }
+}
