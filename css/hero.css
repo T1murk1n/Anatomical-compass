@@ -12,7 +12,6 @@
     padding: 0 15px;
     margin: 0 auto;
 }
-
 .hero__block-text {
     max-width: 810px;
     position: relative;
@@ -30,7 +29,7 @@
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0em;
-    color: #fff;
+    color: var(--white);
     text-align: left;
     background-color: var(--orange);
     transition: all 0.4s ease;
@@ -39,10 +38,3 @@
 .hero__button:hover {
     background-color: var(--light-orange);
 }
-/*.circle {
-    width: 810px;
-    height: 810px;
-    background: linear-gradient(180deg, #EEF2FF 0%, #FAF5FF 100%);
-    border-radius: 50%;
-    filter: blur(1em);
-}*/

@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    user-select: none;
  }
  html, body{
      height: 100%;
@@ -52,11 +53,17 @@
     --light-fiol: #EEF2FF;
     --orange: #EA580C;
     --light-orange: #F97316;
+    --light-yellow: #FDBA74;
+    --white: #fff;
+    --dark-blue: #1E1B4B;
+    --white-for-big-card: #f8f7f7;
+    --white-for-card: #F9FAFB;
+    --light-pink: #FDF2F8;
+    --background-fiol: #F7F9FF;;
 }
 .allocation {
     color: #BE185D;
 }
-
 .allocation-bold {
     font-weight: bold;
     font-size: 1.1em;
@@ -72,4 +79,8 @@
     line-height: 77px;
     letter-spacing: -0.01em;
     text-align: left;
+}
+._wrap {
+    position: relative;
+    z-index: 34;
 }

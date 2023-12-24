@@ -1,10 +1,7 @@
 @font-face {
     font-family: "Tilda Sans VF";
     font-style: normal;
-    /* Браузер сначала попробует найти шрифт локально */
-    src: local("Tilda Sans VF"),
-         /* Если не получилось, загрузит woff2 */
+    src:
          url("/fonts/web/TildaSans-VF.woff2") format("woff2"),
-         /* Если браузер не поддерживает woff2, загрузит woff */
          url("/fonts/web/TildaSans-VF.woff") format("woff");
   }

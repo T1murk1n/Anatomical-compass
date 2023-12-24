@@ -1,15 +1,13 @@
 .whyWe {
     padding-top: 100px;
     padding-bottom: 120px;
-    background-color: #F7F9FF;
+    background-color: var(--background-fiol);
     position: relative;
 }
 .whyWe__container {
     max-width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
-}
-.allocation {
 }
 .whyWe__row {
     margin-top: 60px;

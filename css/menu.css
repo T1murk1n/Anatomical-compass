@@ -114,6 +114,7 @@ ul.menu-wrap__list-col {
     border: none;
     border-right: 1px solid var(--light-fiol);
     border-left: 1px solid var(--light-fiol);
+    display: none;
 }
 .menu-button__line {
     display: block;

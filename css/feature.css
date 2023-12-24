@@ -5,7 +5,7 @@
 }
 .feature__container {
     max-width: 1230px;
-    background-color: #FDBA74;
+    background-color: var(--light-yellow);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@
     font-weight: 800;
     line-height: 70px;
     letter-spacing: -0.01em;
-    color: #fff;
+    color: var(--white);
 }
 .feature__button {
     text-decoration: none;
@@ -31,7 +31,7 @@
     border-radius: 24px;
     font-size: 20px;
     font-weight: 700;
-    color: #fff;
+    color: var(--white);
     background-color: var(--orange);
     transition: all 1s ease;
     max-width: 240px;
@@ -40,17 +40,10 @@
 .feature__button:hover {
     background-color: var(--light-orange);
 }
-.attention {
-    position: relative;
-}
 .attention-img {
     position: absolute;
     top: -15%;
     right: -16%;
-}
-
-.lines {
-    position: relative;
 }
 .feature-lines {
     position: absolute;
