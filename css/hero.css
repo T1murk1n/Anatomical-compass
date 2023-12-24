@@ -38,3 +38,6 @@
 .hero__button:hover {
     background-color: var(--light-orange);
 }
+h1 {
+    overflow-wrap: break-word;
+}

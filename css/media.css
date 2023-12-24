@@ -1,3 +1,9 @@
+
+@media (max-width: 1380px) {
+    div.navbar__container,  div.whyWe__container, div.themes__container, div.hero__container, div.inside__container, div.team__container, div.feature__container,div.footer__container{
+        max-width: 1160px;
+    }
+}
 @media (max-width: 1199px) {
     div.navbar__container,  div.whyWe__container, div.themes__container, div.hero__container, div.inside__container, div.team__container, div.feature__container,div.footer__container{
         max-width: 960px;
@@ -26,6 +32,19 @@
     .feature-plane  {
         display: none;
     }
+    .feature__container {
+
+    }
+    .feature__container img{
+        flex: 1 1 auto;
+    }
+    div.feature__description {
+        padding: 60px 40px 60px 80px;
+        flex: 0 1 30%;
+    }
+    h2.feature__title {
+        font-size: 44px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -45,7 +64,7 @@
     h1.hero__title {
         font-size: 66px;
         margin-bottom: 22px; 
-        line-height: 60px;
+        line-height: 45px;
     }
     p.hero__description {
         font-size: 20px;
@@ -60,35 +79,48 @@
         padding: 20px;
         min-width: 100%;
     }
-    .whyWe-heart, .whyWe-stars, .whyWe-smile{
-        display: none;
+    img.whyWe-heart {
+        bottom: -4%;
+        left: 5%;
     }
-    section.inside {
-        padding: 0;
+    img.whyWe-smile{
+        bottom: 1%;
+    }
+    img.whyWe-stars {
+        top: 5%;
+        right: 5%;
+    }
+    section.inside, section.feature, section.whyWe, section.team {
+        padding: 50px 0;
     }
 
-    .themes-star, .themes-oblako,  .themes-wow, .themes-snow{
+    .themes-star, .themes-sky,  .themes-wow, .themes-snow{
         display: none;
+    }
+    h2.title {
+        font-size: 48px;
+        line-height: 45px;
     }
 }
 
 @media (max-width: 776px) {
     h2[class$="__title"] {
-        font-size: 44px;
+        font-size: 40px;
+    }
+    .whyWe-stars, .whyWe-smile, img.whyWe-heart {
+        display: none;
     }
     a.navbar__button {
         opacity: 1;
         visibility:visible;
+        padding: 6px 10px;
     }
     div.navbar__container,  div.whyWe__container, div.themes__container, div.hero__container, div.inside__container, div.team__container,div.footer__container {
         min-width: 100%;
         padding: 0 30px;
     }
     section.feature {
-        padding: 50px 40px;
-    }
-    div.feature__container .abstraction {
-        display: none;
+        padding: 50px 25px;
     }
     div.feature__container .feature__description h2 {
         font-size: 40px;
@@ -104,6 +136,11 @@
     }
     h1.hero__title {
         overflow-wrap: break-word;
+        word-break: break-all;
+        font-size: 50px;
+    }
+    p.hero__description {
+        font-size: 20px;
     }
     .whyWe__row {
         display: flex;
@@ -116,7 +153,7 @@
         min-width: 100%;
     }
     section.inside {
-        padding: 0;
+        padding: 50px 0;
     }
     div.inside__grid-box {
         width: 100%;
@@ -146,7 +183,25 @@
         top: -39%;
         right: -49%;
     }
-    .footer__row-col2 {
-        display: none;
+    div.footer__row {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    div.footer__row-col2 {
+        flex: 1 1 auto;
+        text-align: left;
+    }
+    footer.footer {
+        padding: 36px 0;
+    }
+}
+@media (max-width: 510px) {
+    .team__card {
+        flex-direction: column;
+    }
+    .team__desciption {
+        text-align: center;
     }
 }

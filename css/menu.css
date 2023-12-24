@@ -15,8 +15,6 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo {
-}
 .hero__title {
     font-size: 96px;
     margin-bottom: 32px;
@@ -45,8 +43,6 @@
     color: #1E1B4B;
     text-decoration: none;
 }
-.navbar__menu {
-}
 .navbar__item-row {
     border: 1px solid var(--fiol);
     border-radius: 100px;
@@ -63,7 +59,6 @@
 .menu-wrap__item-row .navbar__link {
     font-size: 30px;
 }
-
 .navbar__button {
     text-decoration: none;
     padding: 12px 20px;
@@ -84,7 +79,7 @@
     visibility:visible;
 }
 .main{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .menu {
     position: fixed;
@@ -131,8 +126,6 @@ ul.menu-wrap__list-col {
 .button__line2,  .button__line3{
     top: 50%;
     transform: translateY(-50%);
-}
-.button__line3 {
 }
 .button__line4 {
     bottom: 38%;
