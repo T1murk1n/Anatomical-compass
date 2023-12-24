@@ -60,8 +60,10 @@
     font-size: 20px;
     color: var(--fiol);
 }
-.btn-reset {
+.menu-wrap__item-row .navbar__link {
+    font-size: 30px;
 }
+
 .navbar__button {
     text-decoration: none;
     padding: 12px 20px;
@@ -96,29 +98,50 @@
 }
 .menu-wrap {
     background-color: var(--light-fiol);
-    padding: 16px 0;
+    padding: 26px 0;
 }
-.menu-wrap__list-col {
+ul.menu-wrap__list-col {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
-
 .menu-button {
-    background: transparent;
+    width: 80px;
+    height: 100px;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
     border: none;
     border-right: 1px solid var(--light-fiol);
     border-left: 1px solid var(--light-fiol);
-    height: 100px;
-    width: 80px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    display: none;
 }
 .menu-button__line {
     display: block;
-    width: 30px;
-    height: 3px;
-    background-color: var(--fiol);
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    position: absolute; 
+    left: 25%;
+    transition: all 0.3s linear;
+}
+.button__line1 {
+    top: 38%;
+}
+.button__line2,  .button__line3{
+    top: 50%;
+    transform: translateY(-50%);
+}
+.button__line3 {
+}
+.button__line4 {
+    bottom: 38%;
+}
+.menu-button.animate .button__line1, .menu-button.animate  .button__line4  {
+    opacity: 0;
+}
+.menu-button.animate .button__line2 {
+    transform: translateY(-50%) rotate(45deg);
+}
+.menu-button.animate .button__line3 {
+    transform: translateY(-50%) rotate(-45deg);
 }
