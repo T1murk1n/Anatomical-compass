@@ -2,6 +2,6 @@
     font-family: "Tilda Sans VF";
     font-style: normal;
     src:
-         url("/fonts/web/TildaSans-VF.woff2") format("woff2"),
-         url("/fonts/web/TildaSans-VF.woff") format("woff");
+         url("../fonts/TildaSans-VF_TTF_Web/TildaSans-VF.woff2") format("woff2"),
+         url("../fonts/TildaSans-VF_TTF_Web/TildaSans-VF.woff") format("woff");
   }
