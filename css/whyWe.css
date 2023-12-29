@@ -5,7 +5,7 @@
     position: relative;
 }
 .whyWe__container {
-    max-width: 1230px;
+    max-width: 1370px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -17,7 +17,7 @@
 }
 .card {
     padding: 28px;
-    max-width: 320px;
+    max-width: 316px;
     border-radius: 24px;
 }
 .card-blue {
@@ -32,11 +32,11 @@
 .whyWe-heart {
     position: absolute;
     bottom: 10%;
-    left: 15%;
+    left: 12%;
 }
 .whyWe-stars {
     position: absolute;
-    top: 10%;
+    top: 0%;
     right: 15%;
 }
 .whyWe-smile {

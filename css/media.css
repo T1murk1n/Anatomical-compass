@@ -3,6 +3,18 @@
     div.navbar__container,  div.whyWe__container, div.themes__container, div.hero__container, div.inside__container, div.team__container, div.feature__container,div.footer__container{
         max-width: 1160px;
     }
+    img.inside-phone {
+        right: 20%;
+    }
+    img.inside-phone.phone2{
+        right: 44%;
+    }
+    img.card--bottom-img {
+        left: 15%;
+    }
+    img.hero__img-pic{
+        right: -12%;
+    }
 }
 @media (max-width: 1199px) {
     div.navbar__container,  div.whyWe__container, div.themes__container, div.hero__container, div.inside__container, div.team__container, div.feature__container,div.footer__container{
@@ -51,11 +63,17 @@
     div.navbar__container,  div.whyWe__container, div.themes__container, div.hero__container, div.inside__container, div.team__container, div.feature__container,div.footer__container {
         max-width: 750px;
     }
+    img.hero__img-pic {
+        right: -18%;
+    }
     a.navbar__logo.logo {
         display: none;
     }
     a.navbar__link {
         padding: 4px 8px;
+    }
+    img.card--bottom-img{
+        left: 5%;
     }
     a.navbar__button {
         padding: 8px 16px;
@@ -104,11 +122,18 @@
 }
 
 @media (max-width: 776px) {
+
     h2[class$="__title"] {
         font-size: 40px;
     }
     .whyWe-stars, .whyWe-smile, img.whyWe-heart {
         display: none;
+    }
+    img.card--bottom-img{
+        left: 1%;
+    }
+    img.hero__img-pic {
+        right: -28%;
     }
     a.navbar__button {
         opacity: 1;
@@ -203,5 +228,34 @@
     }
     .team__desciption {
         text-align: center;
+    }
+    img.inside-phone {
+        bottom: -4%;
+        right: 16%;
+    }
+    .inside-phone.phone2 {
+        display: none;
+    }
+    img.hero__img-pic {
+       display: none;
+    }
+}
+
+@media (max-width: 435px) {
+    img.inside-phone {
+        right: 10%;
+        bottom: 0%;
+        width: 200px;
+    }
+    div.card--big {
+        padding-bottom: 0;
+    }
+    .hero__block-text a.hero__button {
+        padding: 18px 22px 18px 22px;
+        font-size: 20px;
+    }
+
+    div.inside__card.card--big {
+        height: 650px;
     }
 }

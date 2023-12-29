@@ -4,7 +4,7 @@
     padding: 100px 0;
 }
 .feature__container {
-    max-width: 1230px;
+    max-width: 1370px;
     background-color: var(--light-yellow);
     margin: 0 auto;
     display: flex;
@@ -15,7 +15,7 @@
 .feature__description {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    justify-content: space-between;
     padding: 60px 80px;
 }
 .feature__title {

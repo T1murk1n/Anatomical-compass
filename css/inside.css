@@ -1,5 +1,5 @@
 .inside__container {
-    max-width: 1230px;
+    max-width: 1370px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -12,6 +12,7 @@
 .inside__card  {
     padding: 32px;
     border-radius: 24px;
+    overflow: hidden;
     background-color: var(--white-for-card);
 }
 .inside__card h3 {
@@ -58,15 +59,15 @@
 }
 .inside-phone {
     position: absolute;
-    bottom: 0;
-    right: 3%;
+    bottom: 0%;
+    right: 44px;
 }
 .inside-phone.phone1 {
     z-index: 5;
 }
 .inside-phone.phone2 {
-    bottom: -30%;
-    right: 37%;
+    bottom: 0%;
+    right: 40%;
     z-index: 4;
 }
 .inside-circle-right {
@@ -82,7 +83,7 @@
 .inside-circle-left {
     width: 810px;
     height: 810px;
-    background-color: var(--light-fiol);
+    background: linear-gradient(180deg, #FDF2F8 0%, #FFF7ED 100%);
     filter: blur(1.1em);
     position: absolute;
     bottom: 0%;
@@ -91,4 +92,14 @@
 }
 .inside__card-pink {
     background-color: var(--light-pink);
+}
+.card--bottom {
+}
+.card--bottom-img {
+    position: absolute;
+    top: 24px;
+    left: 0%;
+}
+.inside__card.inside__card-pink.card--long {
+    position: relative;
 }

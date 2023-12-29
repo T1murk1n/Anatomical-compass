@@ -8,20 +8,12 @@
     width: 100%;
 }
 .navbar__container {
-    max-width: 1230px;
+    max-width: 1370px;
     margin: 0 auto;
     display: flex;
     min-height: 100px;
     align-items: center;
     justify-content: space-between;
-}
-.hero__title {
-    font-size: 96px;
-    margin-bottom: 32px;
-    font-size: 96px;
-    font-weight: 800;
-    line-height: 80px;
-    letter-spacing: -0.01em;
 }
 .navbar__logo {
     display: flex;
@@ -33,9 +25,9 @@
 .logo__box {
     width: 70px;
     height: 70px;
-    background: url(../img/Remove-bg.ai_1703096353783.png) no-repeat;
+    background: url(../img/icons/logo.svg) no-repeat;
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 12px;
 }
 .logo__description {
     font-weight: 800;
